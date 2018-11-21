@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back"
+    android:orientation="vertical">
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:id="@+id/name"
+        android:padding="10dp"
+        android:background="@drawable/textbox"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter Email"
+        android:id="@+id/email"
+        android:padding="10dp"
+        android:background="@drawable/textbox"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+         />
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:background="@drawable/textbox"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile No"
+        android:background="@drawable/textbox"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:inputType="phone"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="Register"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>
